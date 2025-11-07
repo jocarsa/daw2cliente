@@ -5,3 +5,5 @@
 3) Genera un iframe invisible
 
 4) Añade a la tabla una columna con botones que vuelvan visible el iframe y cambien el contenido que muestra por el de la web que contienen
+
+AMPLIACIÓN) Añade un formulario que permita añadir nuevas webs a la página. Utiliza un regex para comprobar que la web introducida tiene el formato correcto.
