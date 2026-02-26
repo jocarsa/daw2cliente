@@ -129,13 +129,14 @@ document.getElementById("btnMostrar").addEventListener("click", function() {
   const provincia = provinciaSelect.options[provinciaSelect.selectedIndex].value;
 
   // SELECT MULTIPLE
-  const lenguajesSelect = document.getElementById("lenguajes");
-  let lenguajesSeleccionados = [];
-  lenguajesSelect.forEach(opcion => {
+    const lenguajesSelect = document.getElementById("lenguajes");
+    let lenguajesSeleccionados = [];
+
+    for (const opcion of lenguajesSelect.options) {
     if (opcion.selected) {
-      lenguajesSeleccionados.push(opcion.value);
+        lenguajesSeleccionados.push(opcion.value);
     }
-  });
+    }
 
   // NUMBER
   const edad = document.getElementById("edad").value;
