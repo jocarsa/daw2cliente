@@ -1,0 +1,11 @@
+Crea un formulario para con todos los campos de desarrollador (menos id)
+	- Divide el formulario en 2 formularios distintos
+		- El primero contendrá toda la información personal del desarrollador
+		- El segundo todos los datos laborales
+			- Fecha_alta, activo e id_estudio
+		- Id_estudio debe ser un select que contenga todas las opciones actuales de estudio y la 		opción "Sin estudio", que mandaría NULL a la base de datos.
+		- Id_estudio solo se muestra si el check de activo está marcado.
+		- Activo debe ser un checkbox
+		- Limita los campos a sus dimensiones marcadas por la base de datos
+		- Limpia caracteres no permitidos
+		- 
