@@ -23,7 +23,6 @@ Ampliación:
 			- si está marcado:
 				-fecha_alta obligatoria	
 				- id_estudio obligatorio (no puede ser “Sin estudio”)
-
 			- si NO está marcado:
 				- id_estudio debe quedar oculto (como ya tenéis)
 				- id_estudio debe enviarse como vacío/NULL (simulado)
